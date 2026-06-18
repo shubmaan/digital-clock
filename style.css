@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #E1DCC9;
+
+}
+
+body{
+    background-color:#1F150C;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 15rem;
+    height: 5rem;
+    background-color: #412D15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    position: relative;
+
+    
+}
+
+.monthYear{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+}
+
+.timeContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.weekDay , .day , .month{
+    margin-right: 0.3rem;
+}
